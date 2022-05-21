@@ -28,7 +28,7 @@ function Header() {
         left: 0,
         zIndex: 900,
         color: "white",
-        backgroundColor: isActive ? "#000000" : "unset",
+        backgroundColor: isActive ? "#191919" : "unset",
         "& nav": {
           transition: ".5s",
         },
@@ -94,7 +94,7 @@ function Header() {
         component="nav"
         sx={{
           overflowY: "auto",
-          backgroundColor: "#000000",
+          backgroundColor: "#191919",
           height: "calc(100vh - 110px)",
           [theme.breakpoints.down("lg")]: {
             height: "calc(100vh - 100px)",

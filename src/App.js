@@ -6,6 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Header from "./section/header";
 import Top from "./section/top";
+import Prolouge from "./section/prolouge"
 import MoneyPlex from "./section/moneyplex";
 import MoneyboyCoin from "./section/moneyboy-coin";
 import Collections from "./section/collections";
@@ -32,6 +33,7 @@ function App() {
         <Top moneyboys={moneyboys} />
         <MoneyPlex />
         <MoneyboyCoin />
+        <Prolouge />
         <Collections />
         <Store />
         <Staking />

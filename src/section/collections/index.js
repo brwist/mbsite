@@ -36,9 +36,9 @@ function Collections() {
       component="section"
       id="collections"
       sx={{
-        background: "#060608",
+        background: "#191919",
         color: "#ffffff",
-        padding: "220px 0 250px",
+        padding: "100px 0 250px",
         [theme.breakpoints.down("md")]: {
           padding: "150px 0 150px",
         },

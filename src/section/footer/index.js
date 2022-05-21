@@ -13,7 +13,7 @@ function Footer() {
       component="footer"
       id="footer"
       sx={{
-        background: "#060608",
+        background: "#191919",
         color: "#ffffff",
         padding: "70px 0 120px",
         "& p": {

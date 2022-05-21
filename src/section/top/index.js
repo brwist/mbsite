@@ -60,7 +60,7 @@ function Top({ moneyboys }) {
       component="section"
       id="top"
       sx={{
-        background: "#060608",
+        background: "#191919",
         color: "#ffffff",
         backgroundImage: background,
         backgroundSize: "cover",
